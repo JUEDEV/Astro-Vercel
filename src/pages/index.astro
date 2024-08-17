@@ -1,0 +1,27 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1> Hola, bienvenido!</h1>
+			<p>
+				¡Hola y bienvenido a mi blog! Este es un espacio donde estoy experimentando con la magia de la tecnología, y este documento es parte de una prueba para asegurar que todo funcione perfectamente en Vercel.<br>
+				Pero mientras estás aquí, ¿por qué no explorar un poco más? Si eres tan apasionado por el desarrollo como yo, te invito a que eches un vistazo a mis repositorios en GitHub. Solo tienes que hacer clic en el enlace del navegador o desplazarte hacia abajo para encontrar los accesos directos. ¡No te pierdas la oportunidad de seguirme para estar al tanto de todas las novedades y proyectos emocionantes que tengo en marcha!
+
+Gracias por ser parte de esta aventura tecnológica. ¡Nos vemos en el siguiente commit! 🚀
+			
+				</p>
+		</main>
+		<Footer />
+	</body>
+</html>

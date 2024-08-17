@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1> ¡Hola, mi nombre es Julian!</h1>
+			<p>
+				Soy un desarrollador junior con 27 años de experiencia de vida y un profundo deseo de fortalecer mis habilidades en el mundo del desarrollo. Originario de la vibrante y hermosa ciudad musical de Colombia, llevo en el corazón el ritmo y la pasión de mi tierra natal. Sin embargo, ahora resido en la dinámica capital, Bogotá, una ciudad que ofrece un sinfín de oportunidades y experiencias.
+
+				Vivir en Bogotá ha sido una aventura en sí misma. Aquí, disfruto perderme en sus vastos parques, donde cada rincón invita a la inspiración. Los eventos musicales son una constante fuente de energía, recordándome siempre mis raíces. Los teatros, con su magia en cada función, y el planetario, que me hace soñar con las estrellas mientras mantengo mis pies en la tierra, son algunos de mis lugares favoritos. Además, la ciudad está repleta de eventos interesantes y culturales que alimentan mi curiosidad y creatividad.
+
+				Mi objetivo es seguir creciendo como developer, aprendiendo nuevas tecnologías, y construyendo proyectos que no solo solucionen problemas, sino que también inspiren a otros. Estoy emocionado por lo que el futuro me depara y listo para aprovechar cada oportunidad que se me presente. ¡Vamos por más!🚀
+			
+				</p>
+		</main>
+		<Footer />
+	</body>
+</html>
